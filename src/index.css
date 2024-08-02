@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(-45deg, #1e3a8a, #2a5298, #6a1b9a, #d4145a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.backdrop-filter {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* Improve text visibility for light theme placeholder */
+::placeholder {
+  opacity: 0.7;
+}

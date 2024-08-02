@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import DOMPurify from 'dompurify';
 import { FaPlus, FaCheck, FaUndo, FaTrash } from 'react-icons/fa';
 

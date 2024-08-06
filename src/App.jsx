@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import TodoList from './components/TodoList';
 import ThemeToggle from './components/ThemeToggle';
 import ErrorBoundary from './components/ErrorBoundary';
+import Socials from './components/Socials';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -29,8 +30,11 @@ function App() {
           </ErrorBoundary>
         </div>
       </div>
-      <footer className="text-center py-4 text-white bg-black bg-opacity-30">
-        Made by Rashad
+      <footer className="py-4 bg-black bg-opacity-30">
+        <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center">
+          <p className="text-white text-xl mb-4 sm:mb-0">Made by Rashad</p>
+          <Socials />
+        </div>
       </footer>
     </div>
   );

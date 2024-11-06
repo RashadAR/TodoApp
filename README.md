@@ -13,7 +13,7 @@ Fancy ToDo App is a simple and intuitive web application designed for managing a
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/fancy-todo-app.git
+    git clone https://github.com/RashadAR/TodoApp.git
     ```
 
 2. Navigate to the project directory:
